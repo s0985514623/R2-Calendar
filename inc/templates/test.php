@@ -9,7 +9,6 @@
 </head>
 
 <body <?php body_class();?> style="background-color:#fff;">
-
 	<div id="my_app"></div>
 
 	<?php wp_footer();?>

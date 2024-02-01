@@ -47,15 +47,7 @@
 		"@typescript-eslint/explicit-function-return-type": "off",
 		"react/prop-types": "off",
 		"react/react-in-jsx-scope": "off",
-		"prettier/prettier": [
-			"error",
-			{
-				"endOfLine": "auto",
-				"useTabs": false,
-				"tabWidth": 2,
-				"prettier-multiline-arrays-set-threshold": 1
-			}
-		],
+		"prettier/prettier": "off",
 		"no-unused-vars": [
 			"warn",
 			{
@@ -83,16 +75,16 @@
 		"lines-around-comment": [
 			"error",
 			{
-				"beforeBlockComment": true,
-				"afterBlockComment": true,
-				"beforeLineComment": true,
-				"afterLineComment": true,
-				"allowBlockStart": true,
-				"allowBlockEnd": true,
-				"allowObjectStart": true,
-				"allowObjectEnd": true,
-				"allowArrayStart": true,
-				"allowArrayEnd": true
+				"beforeBlockComment": false,
+				"afterBlockComment": false,
+				"beforeLineComment": false,
+				"afterLineComment": false,
+				"allowBlockStart": false,
+				"allowBlockEnd": false,
+				"allowObjectStart": false,
+				"allowObjectEnd": false,
+				"allowArrayStart": false,
+				"allowArrayEnd": false
 			}
 		]
 	},

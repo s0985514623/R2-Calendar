@@ -2,18 +2,15 @@
     "arrowParens": "always",
     "bracketSpacing": true,
     "parenSpacing": true,
-    "printWidth": 80,
+    "printWidth": 500,
     "semi": false,
     "singleQuote": true,
-    "tabWidth": 2,
+    "tabWidth": 4,
     "trailingComma": "all",
     "useTabs": false,
     "endOfLine": "auto",
-    "prettier-multiline-arrays-set-threshold": 2,
-    "plugins": [
-        "./node_modules/eslint-plugin-prettier",
-        "./node_modules/prettier-plugin-multiline-arrays"
-    ],
+    "multilineArraysWrapThreshold": 4,
+    "plugins": ["./node_modules/eslint-plugin-prettier", "./node_modules/prettier-plugin-multiline-arrays"],
     "overrides": [
         {
             "files": ["*.json"],
@@ -22,14 +19,11 @@
             }
         },
         {
-            "files": [
-                "*.yaml",
-                "*.yml"
-            ],
+            "files": ["*.yaml", "*.yml"],
             "options": {
-                "singleQuote": false,
+                "singleQuote": true,
                 "tabWidth": 2,
-                "useTabs": false
+                "useTabs": true
             }
         }
     ]

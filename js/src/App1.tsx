@@ -1,8 +1,8 @@
 import '@/assets/scss/index.scss'
-import DefaultPage from './pages'
+import Calendar from './pages/Calendar'
 
 function App() {
-  return <DefaultPage />
+  return <Calendar />
 }
 
 export default App
