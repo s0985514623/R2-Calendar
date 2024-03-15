@@ -52,7 +52,8 @@ const App: React.FC = () => {
         pathParams: [selectedPostId?.toString() || ''],
         mutationOptions: {
             onSuccess: () => {
-                // setCreateModalOpen(false)
+                queryClient.invalidateQueries([`get_${kebab}s`])
+                setViewModalOpen(false)
             },
         },
     })
