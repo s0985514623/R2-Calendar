@@ -17,7 +17,7 @@ abstract class Utils {
 	const API_TIMEOUT = '30000';
 
 	const DEFAULT_IMAGE = 'http://1.gravatar.com/avatar/1c39955b5fe5ae1bf51a77642f052848?s=96&d=mm&r=g';
-	const GITHUB_REPO   = 'https://github.com/j7-dev/wp-react-plugin';
+	const GITHUB_REPO   = 'https://github.com/s0985514623/R2-Calendar';
 
 	public static function get_plugin_dir(): string {
 		$plugin_dir = \untrailingslashit( \wp_normalize_path( ABSPATH . 'wp-content/plugins/' . self::KEBAB ) );
